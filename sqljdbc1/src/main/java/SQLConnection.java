@@ -15,13 +15,13 @@ public class SQLConnection {
     */
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
         Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-        String url = "jdbc:sqlserver://localhost\\SQLEXPRESS;databaseName=CONNECTIS;integratedSecurity=true;";
+        String url = "jdbc:sqlserver://localhost\\SQLEXPRESS;databases=Connectis;integratedSecurity=true;";
 
         Connection conn = DriverManager.getConnection(url);
         System.out.println(conn);
 
         Statement statement = conn.createStatement();
-        String sqlQuery = "Select * from Employees";
+        String sqlQuery = "Select * from Employee";
         ResultSet rs = statement.executeQuery(sqlQuery);
         while (rs.next()) {
             /* Przykład
@@ -29,36 +29,30 @@ public class SQLConnection {
             System.out.println(rs.getDate("StartJobDate"));
         }
 
-        //insert
-        String insert = "Insert INTO Employees (LastName, FirstName, Address, City, Salary, Age, StartJobDate, Benefit) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
+     /*   //insert
+        String insert = "Insert INTO Employee (LastName, FirstName, Address, City, Salary, Age, StartJobDate, Benefit) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
 
         PreparedStatement ps = conn.prepareStatement(insert);
-        ps.setString(1, "Jarek");
-        ps.setString(2, "Garek");
-        ps.setString(3, "Bursztynowa");
-        ps.setString(4, "Wilno");
-        ps.setInt(5, 4500);
-        ps.setInt(6, 42);
-        ps.setDate(7, Date.valueOf("2018-10-15"));
+        ps.setString(1, "Anna");
+        ps.setString(2, "Annowska");
+        ps.setString(3, "ul. Nowa 5");
+        ps.setString(4, "Gdańsk");
+        ps.setInt(5, 2900);
+        ps.setInt(6, 37);
+        ps.setDate(7, Date.valueOf("2016-08-21"));
         ps.setInt(8, 1);
 
        int rowInsert = ps.executeUpdate();
         if(rowInsert > 0) {
             System.out.println("Success!");
-        }
+        }*/
 
     }
 
 
 
-
-
-
-
-
-
     public void transactions(Connection conn) {
-     //   String url = "jdbc:sqlserver://localhost\\SQLEXPRESS;databaseName=CONNECTIS;integratedSecurity=true;";
+     //   String url = "jdbc:sqlserver://localhost\\SQLEXPRESS;databaseName=Connectis;integratedSecurity=true;";
         try {
             conn.setAutoCommit(Boolean.FALSE);
             //do
