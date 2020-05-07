@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a4eed19-43c5-4e25-8777-9c0f285c56f9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sqljdbc1/sqljdbc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sqljdbc1/sqljdbc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sqljdbc1/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/sqljdbc1/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sqljdbc1/src/main/java/SQLConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/sqljdbc1/src/main/java/SQLConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sqljdbc1/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/sqljdbc1/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sqljdbc1/target/classes/SQLConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/sqljdbc1/target/classes/SQLConnection.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/sqljdbc1/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -130,7 +124,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588858679766" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588859282603" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -148,7 +142,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.SQLConnection">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="sqljdbc" />
@@ -165,8 +159,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.SQLConnection" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -181,6 +175,14 @@
       <option name="presentableId" value="Default" />
       <updated>1588840758166</updated>
     </task>
+    <task id="LOCAL-00001" summary="database connecting">
+      <created>1588858808145</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588858808145</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -214,6 +216,10 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="database connecting" />
+    <option name="LAST_COMMIT_MESSAGE" value="database connecting" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">

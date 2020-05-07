@@ -21,7 +21,7 @@ public class SQLConnection {
         System.out.println(conn);
 
         Statement statement = conn.createStatement();
-        String sqlQuery = "Select * from Employee";
+        String sqlQuery = "Select * from Connectis.dbo.Employee";
         ResultSet rs = statement.executeQuery(sqlQuery);
         while (rs.next()) {
             /* Przykład
