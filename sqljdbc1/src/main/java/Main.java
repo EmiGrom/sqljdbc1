@@ -17,7 +17,7 @@ public class Main {
         String sqlQuery = "Select * from Connectis.dbo.Employee";
         ResultSet rs = statement.executeQuery(sqlQuery);
         System.out.println(rs);
-   /*     while (rs.next()) {
+        while (rs.next()) {
             System.out.println(rs.getInt(1));
             System.out.println(rs.getString(2));
             System.out.println(rs.getString(3));
@@ -26,14 +26,14 @@ public class Main {
             System.out.println(rs.getInt(6));
             System.out.println(rs.getInt(7));
             System.out.println(rs.getDate(8));
-          *//* Przykład
+          /* Przykład
             System.out.println(rs.getDate(8));
-            System.out.println(rs.getDate("StartJobDate"));*//*
-            System.out.println(rs.getInt(9));
-        }*/
+            System.out.println(rs.getDate("StartJobDate"));
+            System.out.println(rs.getInt(9));*/
+        }
 
         //insert
-      /*  String insert = "Insert INTO Employee (LastName, FirstName, Address, City, Salary, Age, StartJobDate, Benefit) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
+        String insert = "Insert INTO Connectis.dbo.Employee (LastName, FirstName, Address, City, Salary, Age, StartJobDate, Benefit) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
 
         PreparedStatement ps = conn.prepareStatement(insert);
         ps.setString(1, "Anna");
@@ -45,14 +45,14 @@ public class Main {
         ps.setDate(7, Date.valueOf("2016-08-21"));
         ps.setInt(8, 1);
 
-*//*        int rowInsert = ps.executeUpdate();
-        if(rowInsert > 0) {
+        /* int rowInsert = ps.executeUpdate();
+        if (rowInsert > 0) {
             System.out.println("Success!");
-        }*//*
+        }*/
 
         //update
 
-        String update = "UPDATE Employee SET LastName=?, FirstName=?, Address=?, City=?, Salary=?, Age=?, StartJobDate=?, Benefit=? WHERE ID=?";
+        String update = "UPDATE Connectis.dbo.Employee SET LastName=?, FirstName=?, Address=?, City=?, Salary=?, Age=?, StartJobDate=?, Benefit=? WHERE ID=?";
 
         PreparedStatement ps1 = conn.prepareStatement(update);
         ps1.setString(1, "Anna");
@@ -63,23 +63,23 @@ public class Main {
         ps1.setInt(6, 37);
         ps1.setDate(7, Date.valueOf("2016-08-21"));
         ps1.setInt(8, 1);
-        ps1.setInt(9,7);
+        ps1.setInt(9, 7);
 
-*//*        int rowInsert = ps1.executeUpdate();
-        if(rowInsert > 0) {
+        /*int rowInsert = ps1.executeUpdate();
+        if (rowInsert > 0) {
             System.out.println("Success!");
-        }*//*
+        }*/
 
         //delete
-        String delete = "DELETE FROM Employee WHERE ID=?";
+        String delete = "DELETE FROM Connectis.dbo.Employee WHERE ID=?";
 
         PreparedStatement ps2 = conn.prepareStatement(delete);
         ps2.setInt(1, 7);
 
         int rowInsert = ps2.executeUpdate();
-        if(rowInsert > 0) {
+        if (rowInsert > 0) {
             System.out.println("Success!");
-        }*/
+        }
     }
 
     public void transactions(Connection conn) {

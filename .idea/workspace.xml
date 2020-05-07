@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4a4eed19-43c5-4e25-8777-9c0f285c56f9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqljdbc1/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/sqljdbc1/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqljdbc1/src/main/java/SQLConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/sqljdbc1/src/main/java/SQLConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqljdbc1/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/sqljdbc1/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqljdbc1/target/classes/SQLConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/sqljdbc1/target/classes/SQLConnection.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/sqljdbc1/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sqljdbc1/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+            <state relative-caret-position="-594">
+              <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -31,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sqljdbc1/src/main/java/SQLConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="-115">
+              <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -49,8 +53,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/sqljdbc1/pom.xml" />
-        <option value="$PROJECT_DIR$/sqljdbc1/src/main/java/SQLConnection.java" />
         <option value="$PROJECT_DIR$/sqljdbc1/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/sqljdbc1/src/main/java/SQLConnection.java" />
       </list>
     </option>
   </component>
@@ -66,8 +70,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="47" />
-    <option name="y" value="390" />
+    <option name="x" value="69" />
+    <option name="y" value="494" />
     <option name="width" value="1688" />
     <option name="height" value="1047" />
   </component>
@@ -124,7 +128,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588859282603" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588860297524" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -182,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588858808145</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="database connecting update">
+      <created>1588859306633</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588859306633</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -198,7 +209,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38894907" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4312026" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -206,7 +217,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3261105" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -219,7 +230,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="database connecting" />
-    <option name="LAST_COMMIT_MESSAGE" value="database connecting" />
+    <MESSAGE value="database connecting update" />
+    <option name="LAST_COMMIT_MESSAGE" value="database connecting update" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -238,17 +250,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sqljdbc1/src/main/java/Main.java">
+    <entry file="file://$PROJECT_DIR$/sqljdbc1/src/main/java/SQLConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+        <state relative-caret-position="-115">
+          <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sqljdbc1/src/main/java/SQLConnection.java">
+    <entry file="file://$PROJECT_DIR$/sqljdbc1/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="-594">
+          <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
         </state>
       </provider>
     </entry>

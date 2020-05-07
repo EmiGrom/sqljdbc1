@@ -29,8 +29,8 @@ public class SQLConnection {
             System.out.println(rs.getDate("StartJobDate"));
         }
 
-     /*   //insert
-        String insert = "Insert INTO Employee (LastName, FirstName, Address, City, Salary, Age, StartJobDate, Benefit) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
+     //insert
+        String insert = "Insert INTO Connectis.dbo.Employee (LastName, FirstName, Address, City, Salary, Age, StartJobDate, Benefit) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
 
         PreparedStatement ps = conn.prepareStatement(insert);
         ps.setString(1, "Anna");
@@ -45,7 +45,7 @@ public class SQLConnection {
        int rowInsert = ps.executeUpdate();
         if(rowInsert > 0) {
             System.out.println("Success!");
-        }*/
+        }
 
     }
 
